@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "buildCommand": "echo 'Build complete'",
+  "public": true,
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
