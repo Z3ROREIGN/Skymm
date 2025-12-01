@@ -1,0 +1,22 @@
+{
+  "name": "skymm-bots",
+  "version": "1.0.0",
+  "description": "Bots de Discord para vendas, tickets e intermediário",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'Build complete'",
+    "start": "node server.js"
+  },
+  "keywords": ["discord", "bots", "vendas"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.11"
+  }
+}

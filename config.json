@@ -1,0 +1,73 @@
+{
+  "site": {
+    "name": "Skymm",
+    "title": "Skymm - Bots de Discord",
+    "description": "Automatize vendas, gerencie tickets e intermedie transações no Discord",
+    "logo": "https://cdn.discordapp.com/attachments/1440429013989331049/1445036357742235668/images.png?ex=692ee27b&is=692d90fb&hm=24c2525d58c8031be6bd7478a4c17441ae10a08386587d874f295c16be166c86&"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Bot de Vendas",
+      "description": "Bot automático para gerenciar vendas no Discord",
+      "price": 5.00,
+      "currency": "BRL",
+      "type": "sales",
+      "features": [
+        "Suporte 24/7",
+        "Atualizações automáticas",
+        "Configuração personalizada"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bot de Tickets",
+      "description": "Sistema de tickets para suporte no Discord",
+      "price": 4.50,
+      "currency": "BRL",
+      "type": "tickets",
+      "features": [
+        "Suporte 24/7",
+        "Atualizações automáticas",
+        "Configuração personalizada"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bot Intermediário",
+      "description": "Bot para intermediação de transações no Discord",
+      "price": 7.00,
+      "currency": "BRL",
+      "type": "middleman",
+      "features": [
+        "Suporte 24/7",
+        "Atualizações automáticas",
+        "Configuração personalizada"
+      ]
+    }
+  ],
+  "payment": {
+    "methods": {
+      "pix_manual": {
+        "enabled": true,
+        "name": "Pix Manual"
+      },
+      "pix_auto": {
+        "enabled": false,
+        "name": "Pix Automático"
+      },
+      "card": {
+        "enabled": false,
+        "name": "Cartão de Crédito/Débito"
+      }
+    }
+  },
+  "theme": {
+    "primaryColor": "#3b82f6",
+    "backgroundColor": "#0f172a",
+    "textColor": "#ffffff"
+  },
+  "api": {
+    "baseUrl": "/api"
+  }
+}
