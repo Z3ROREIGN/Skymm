@@ -1,7 +1,27 @@
-
-
-"scripts": {
-  "dev": "vercel dev",
-  "build": "npm install",
-  "deploy": "vercel --prod"
-},
+{
+  "name": "skymm-bots",
+  "version": "2.0.0",
+  "description": "Bots de Discord para vendas, tickets e intermediário - Vercel Serverless",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "npm install",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "discord",
+    "bots",
+    "vendas",
+    "vercel",
+    "serverless"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}
