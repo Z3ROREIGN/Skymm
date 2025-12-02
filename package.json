@@ -1,7 +1,7 @@
-// Arquivo: package.json
+
 
 "scripts": {
   "dev": "vercel dev",
-  "build": "npm install", // <--- Mude esta linha
+  "build": "npm install",
   "deploy": "vercel --prod"
 },
